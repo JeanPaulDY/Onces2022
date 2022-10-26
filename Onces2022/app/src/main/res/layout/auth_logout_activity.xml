@@ -21,6 +21,10 @@
         tools:layout_editor_absoluteX="36dp"
         tools:layout_editor_absoluteY="439dp">
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
         <TextView
             android:id="@+id/emailTextView"
             android:layout_width="match_parent"
@@ -49,10 +53,13 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button_logaout"
+                android:id="@+id/button_logout"
                 android:layout_width="wrap_content"
                 android:layout_height="58dp"
                 android:layout_weight="1"
+                android:background="@color/verde_main"
+                android:backgroundTint="@color/verde_main"
+                android:foregroundTint="@color/verde_main"
                 android:text="Cerrar Sesion" />
         </LinearLayout>
     </LinearLayout>
