@@ -7,10 +7,16 @@
     android:background="@color/naranja_main"
     tools:context=".MainActivity">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="571dp"
-        android:layout_height="522dp"
+        android:layout_height="520dp"
         app:srcCompat="@drawable/logo_trans"
         tools:layout_editor_absoluteX="-80dp"
         tools:layout_editor_absoluteY="-2dp" />
