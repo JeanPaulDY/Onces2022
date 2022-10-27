@@ -9,9 +9,11 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="413dp"
-        android:layout_height="413dp"
-        app:srcCompat="@mipmap/logo2" />
+        android:layout_width="571dp"
+        android:layout_height="522dp"
+        app:srcCompat="@drawable/logo_trans"
+        tools:layout_editor_absoluteX="-80dp"
+        tools:layout_editor_absoluteY="-2dp" />
 
     <LinearLayout
         android:layout_width="350dp"
