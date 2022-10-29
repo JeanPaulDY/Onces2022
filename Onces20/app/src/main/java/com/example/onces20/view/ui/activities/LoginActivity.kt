@@ -1,16 +1,16 @@
-package com.example.onces20.view.UI.activities
+package com.example.onces20.view.ui.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import com.example.onces20.R
 
 class LoginActivity : AppCompatActivity() {
     lateinit var iniciobutton:Button
     lateinit var registrobutton:Button
-    lateinit var recuperarbutton:Button
-
+    lateinit var recuperarbutton:TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)

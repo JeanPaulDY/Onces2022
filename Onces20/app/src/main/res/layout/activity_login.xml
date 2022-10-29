@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/naranja_main"
-    tools:context=".view.UI.activities.LoginActivity">
+    tools:context=".view.ui.activities.LoginActivity">
 
     <ImageView
         android:id="@+id/fondo"

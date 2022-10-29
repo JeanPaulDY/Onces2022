@@ -1,4 +1,4 @@
-package com.example.onces20.view.UI.activities
+package com.example.onces20.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
