@@ -24,5 +24,8 @@ class LoginActivity : AppCompatActivity() {
         registrobutton.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
+        recuperarbutton.setOnClickListener {
+            startActivity(Intent(this, RecuperarActivity::class.java))
+        }
         }
     }
