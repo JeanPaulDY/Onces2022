@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.onces20.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.example.onces20.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yogos\\.gradle\\daemon\\7.4\\com.example.onces20.app-mergeDebugResources-39:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\yogos\\.gradle\\daemon\\7.4\\com.example.onces20.app-main-42:\\layout\\activity_main.xml"
+    }
+]

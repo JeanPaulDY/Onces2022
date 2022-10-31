@@ -1,0 +1,363 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.onces20"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\808a2f11e8a7c2586a0fed6262d86a8e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\808a2f11e8a7c2586a0fed6262d86a8e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\808a2f11e8a7c2586a0fed6262d86a8e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\808a2f11e8a7c2586a0fed6262d86a8e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] C:\Users\yogos\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.onces20.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] C:\Users\yogos\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] C:\Users\yogos\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.onces20.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] C:\Users\yogos\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] C:\Users\yogos\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:5:5-60:19
+24        android:allowBackup="true"
+24-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:6:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] C:\Users\yogos\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+26        android:dataExtractionRules="@xml/data_extraction_rules"
+26-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:7:9-65
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:fullBackupContent="@xml/backup_rules"
+29-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:8:9-54
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:9:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:10:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:11:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:12:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.Onces20" >
+35-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:13:9-45
+36        <activity
+36-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:15:9-21:20
+37            android:name="com.example.onces20.RecuperarActivity"
+37-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:16:13-46
+38            android:exported="false" >
+38-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:17:13-37
+39            <meta-data
+39-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:18:13-20:36
+40                android:name="android.app.lib_name"
+40-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:19:17-52
+41                android:value="" />
+41-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:20:17-33
+42        </activity>
+43        <activity
+43-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:22:9-28:20
+44            android:name="com.example.onces20.view.ui.activities.LoginStartActivity"
+44-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:23:13-66
+45            android:exported="false" >
+45-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:24:13-37
+46            <meta-data
+46-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:18:13-20:36
+47                android:name="android.app.lib_name"
+47-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:19:17-52
+48                android:value="" />
+48-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:20:17-33
+49        </activity>
+50        <activity
+50-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:29:9-35:20
+51            android:name="com.example.onces20.view.ui.activities.RegisterActivity"
+51-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:30:13-64
+52            android:exported="false" >
+52-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:31:13-37
+53            <meta-data
+53-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:18:13-20:36
+54                android:name="android.app.lib_name"
+54-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:19:17-52
+55                android:value="" />
+55-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:20:17-33
+56        </activity>
+57        <activity
+57-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:36:9-42:20
+58            android:name="com.example.onces20.view.ui.activities.LoginActivity"
+58-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:37:13-61
+59            android:exported="false" >
+59-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:38:13-37
+60            <meta-data
+60-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:18:13-20:36
+61                android:name="android.app.lib_name"
+61-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:19:17-52
+62                android:value="" />
+62-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:20:17-33
+63        </activity>
+64        <activity
+64-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:43:9-55:20
+65            android:name="com.example.onces20.view.ui.activities.MainActivity"
+65-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:44:13-60
+66            android:exported="true" >
+66-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:45:13-36
+67            <intent-filter>
+67-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:46:13-50:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:47:17-69
+68-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:47:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:49:17-77
+70-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:49:27-74
+71            </intent-filter>
+72
+73            <meta-data
+73-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:18:13-20:36
+74                android:name="android.app.lib_name"
+74-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:19:17-52
+75                android:value="" />
+75-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:20:17-33
+76        </activity>
+77
+78        <meta-data
+78-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:57:9-59:57
+79            android:name="preloaded_fonts"
+79-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:58:13-43
+80            android:resource="@array/preloaded_fonts" />
+80-->C:\Users\yogos\Documents\GitHub\Onces2022\Onces20\app\src\main\AndroidManifest.xml:59:13-54
+81
+82        <service
+82-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\ab91293d039a707104a0aa3e20002227\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:8:9-14:19
+83            android:name="com.google.firebase.components.ComponentDiscoveryService"
+83-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\ab91293d039a707104a0aa3e20002227\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:9:13-84
+84            android:directBootAware="true"
+84-->[com.google.firebase:firebase-common:20.2.0] C:\Users\yogos\.gradle\caches\transforms-3\82e4e5905b720feec8573e7533071d27\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+85            android:exported="false" >
+85-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\ab91293d039a707104a0aa3e20002227\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:10:13-37
+86            <meta-data
+86-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\ab91293d039a707104a0aa3e20002227\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
+87                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+87-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\ab91293d039a707104a0aa3e20002227\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\ab91293d039a707104a0aa3e20002227\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\yogos\.gradle\caches\transforms-3\5a4fc8662c7ca4b71e85c4560d0bd6af\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+90                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+90-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\yogos\.gradle\caches\transforms-3\5a4fc8662c7ca4b71e85c4560d0bd6af\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\yogos\.gradle\caches\transforms-3\5a4fc8662c7ca4b71e85c4560d0bd6af\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+93                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+93-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+95            <meta-data
+95-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\808a2f11e8a7c2586a0fed6262d86a8e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+96                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+96-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\808a2f11e8a7c2586a0fed6262d86a8e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\808a2f11e8a7c2586a0fed6262d86a8e\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\yogos\.gradle\caches\transforms-3\7aa8317a85a8cb950d2b9347a0e7e9bf\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+99                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+99-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\yogos\.gradle\caches\transforms-3\7aa8317a85a8cb950d2b9347a0e7e9bf\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\yogos\.gradle\caches\transforms-3\7aa8317a85a8cb950d2b9347a0e7e9bf\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+101        </service>
+102
+103        <activity
+103-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+104            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+104-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+105            android:excludeFromRecents="true"
+105-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+106            android:exported="true"
+106-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+107            android:launchMode="singleTask"
+107-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+108-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+109            <intent-filter>
+109-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+110                <action android:name="android.intent.action.VIEW" />
+110-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+110-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+111
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+112-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+113                <category android:name="android.intent.category.BROWSABLE" />
+113-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+113-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+114
+115                <data
+115-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+116                    android:host="firebase.auth"
+116-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+117                    android:path="/"
+117-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+118                    android:scheme="genericidp" />
+118-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+119            </intent-filter>
+120        </activity>
+121        <activity
+121-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+122            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+122-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+123            android:excludeFromRecents="true"
+123-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+124            android:exported="true"
+124-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+125            android:launchMode="singleTask"
+125-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+126-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+127            <intent-filter>
+127-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+128                <action android:name="android.intent.action.VIEW" />
+128-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+128-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+129
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+130-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+131                <category android:name="android.intent.category.BROWSABLE" />
+131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+132
+133                <data
+133-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+134                    android:host="firebase.auth"
+134-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+135                    android:path="/"
+135-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+136                    android:scheme="recaptcha" />
+136-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\yogos\.gradle\caches\transforms-3\4a8127b47958c8de920cd39bd6ed6de1\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+137            </intent-filter>
+138        </activity>
+139        <activity
+139-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\yogos\.gradle\caches\transforms-3\2ab2fb1047443a68be2220644d5a8baf\transformed\play-services-auth-20.3.0\AndroidManifest.xml:23:9-27:75
+140            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+140-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\yogos\.gradle\caches\transforms-3\2ab2fb1047443a68be2220644d5a8baf\transformed\play-services-auth-20.3.0\AndroidManifest.xml:24:13-93
+141            android:excludeFromRecents="true"
+141-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\yogos\.gradle\caches\transforms-3\2ab2fb1047443a68be2220644d5a8baf\transformed\play-services-auth-20.3.0\AndroidManifest.xml:25:13-46
+142            android:exported="false"
+142-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\yogos\.gradle\caches\transforms-3\2ab2fb1047443a68be2220644d5a8baf\transformed\play-services-auth-20.3.0\AndroidManifest.xml:26:13-37
+143            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+143-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\yogos\.gradle\caches\transforms-3\2ab2fb1047443a68be2220644d5a8baf\transformed\play-services-auth-20.3.0\AndroidManifest.xml:27:13-72
+144        <!--
+145            Service handling Google Sign-In user revocation. For apps that do not integrate with
+146            Google Sign-In, this service will never be started.
+147        -->
+148        <service
+148-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\yogos\.gradle\caches\transforms-3\2ab2fb1047443a68be2220644d5a8baf\transformed\play-services-auth-20.3.0\AndroidManifest.xml:33:9-37:51
+149            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+149-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\yogos\.gradle\caches\transforms-3\2ab2fb1047443a68be2220644d5a8baf\transformed\play-services-auth-20.3.0\AndroidManifest.xml:34:13-89
+150            android:exported="true"
+150-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\yogos\.gradle\caches\transforms-3\2ab2fb1047443a68be2220644d5a8baf\transformed\play-services-auth-20.3.0\AndroidManifest.xml:35:13-36
+151            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+151-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\yogos\.gradle\caches\transforms-3\2ab2fb1047443a68be2220644d5a8baf\transformed\play-services-auth-20.3.0\AndroidManifest.xml:36:13-107
+152            android:visibleToInstantApps="true" />
+152-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\yogos\.gradle\caches\transforms-3\2ab2fb1047443a68be2220644d5a8baf\transformed\play-services-auth-20.3.0\AndroidManifest.xml:37:13-48
+153
+154        <provider
+154-->[com.google.firebase:firebase-common:20.2.0] C:\Users\yogos\.gradle\caches\transforms-3\82e4e5905b720feec8573e7533071d27\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+155            android:name="com.google.firebase.provider.FirebaseInitProvider"
+155-->[com.google.firebase:firebase-common:20.2.0] C:\Users\yogos\.gradle\caches\transforms-3\82e4e5905b720feec8573e7533071d27\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+156            android:authorities="com.example.onces20.firebaseinitprovider"
+156-->[com.google.firebase:firebase-common:20.2.0] C:\Users\yogos\.gradle\caches\transforms-3\82e4e5905b720feec8573e7533071d27\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+157            android:directBootAware="true"
+157-->[com.google.firebase:firebase-common:20.2.0] C:\Users\yogos\.gradle\caches\transforms-3\82e4e5905b720feec8573e7533071d27\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+158            android:exported="false"
+158-->[com.google.firebase:firebase-common:20.2.0] C:\Users\yogos\.gradle\caches\transforms-3\82e4e5905b720feec8573e7533071d27\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+159            android:initOrder="100" />
+159-->[com.google.firebase:firebase-common:20.2.0] C:\Users\yogos\.gradle\caches\transforms-3\82e4e5905b720feec8573e7533071d27\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+160
+161        <activity
+161-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\yogos\.gradle\caches\transforms-3\3447e169162bdd699d076588cd5c463b\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+162            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+162-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\yogos\.gradle\caches\transforms-3\3447e169162bdd699d076588cd5c463b\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+163            android:exported="false"
+163-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\yogos\.gradle\caches\transforms-3\3447e169162bdd699d076588cd5c463b\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+164            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+164-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\yogos\.gradle\caches\transforms-3\3447e169162bdd699d076588cd5c463b\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+165
+166        <receiver
+166-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+167            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+167-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+168            android:enabled="true"
+168-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+169            android:exported="false" >
+169-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+170        </receiver>
+171
+172        <service
+172-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+173            android:name="com.google.android.gms.measurement.AppMeasurementService"
+173-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+174            android:enabled="true"
+174-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+175            android:exported="false" />
+175-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+176        <service
+176-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+177            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+177-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+178            android:enabled="true"
+178-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+179            android:exported="false"
+179-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+180            android:permission="android.permission.BIND_JOB_SERVICE" />
+180-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\yogos\.gradle\caches\transforms-3\26149202d302716af0494f6485ea81e1\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+181
+182        <meta-data
+182-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\yogos\.gradle\caches\transforms-3\f9480eefd82e272c9aa85e3f9fa60051\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+183            android:name="com.google.android.gms.version"
+183-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\yogos\.gradle\caches\transforms-3\f9480eefd82e272c9aa85e3f9fa60051\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+184            android:value="@integer/google_play_services_version" />
+184-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\yogos\.gradle\caches\transforms-3\f9480eefd82e272c9aa85e3f9fa60051\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+185
+186        <provider
+186-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yogos\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+187            android:name="androidx.startup.InitializationProvider"
+187-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yogos\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+188            android:authorities="com.example.onces20.androidx-startup"
+188-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yogos\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+189            android:exported="false" >
+189-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yogos\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+190            <meta-data
+190-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yogos\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+191                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+191-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yogos\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+192                android:value="androidx.startup" />
+192-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yogos\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+193            <meta-data
+193-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yogos\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+194                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+194-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yogos\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+195                android:value="androidx.startup" />
+195-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yogos\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+196        </provider>
+197    </application>
+198
+199</manifest>
