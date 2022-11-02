@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.animationView.setAnimation(R.raw.nuevaanimation)
+        binding.animationView.setAnimation(R.raw.animacion)
         binding.animationView.playAnimation()
 
         handler=Handler(Looper.myLooper()!!)
@@ -25,6 +25,6 @@ class MainActivity : AppCompatActivity() {
                 val intent= Intent(this, LoginActivity::class.java)
                 startActivity(intent)
                 finish()
-            }, 5500)
+            }, 9000)
     }
 }
