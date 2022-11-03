@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">212715887544-0opa5apehsvg9l9e297ehqr9q1i0f9lv.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">212715887544</string>
+    <string name="google_api_key" translatable="false">AIzaSyBzs11MhTiw0QSCqOp2MHyVdkPJKa0WYpw</string>
+    <string name="google_app_id" translatable="false">1:212715887544:android:d533723ad0488b92ad8d4d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBzs11MhTiw0QSCqOp2MHyVdkPJKa0WYpw</string>
+    <string name="google_storage_bucket" translatable="false">oncesapp.appspot.com</string>
+    <string name="project_id" translatable="false">oncesapp</string>
+</resources>

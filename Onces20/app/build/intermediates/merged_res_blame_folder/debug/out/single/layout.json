@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.onces20.app-mergeDebugResources-40:/layout/activity_recuperar.xml",
+        "source": "com.example.onces20.app-main-43:/layout/activity_recuperar.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-mergeDebugResources-40:/layout/activity_login_start.xml",
+        "source": "com.example.onces20.app-main-43:/layout/activity_login_start.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-mergeDebugResources-40:/layout/activity_register.xml",
+        "source": "com.example.onces20.app-main-43:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.example.onces20.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-mergeDebugResources-40:/layout/activity_login.xml",
+        "source": "com.example.onces20.app-main-43:/layout/activity_login.xml"
+    }
+]

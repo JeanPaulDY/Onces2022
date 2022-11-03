@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable-anydpi_ic_password.xml.flat",
+        "source": "com.example.onces20.app-debug-42:/drawable-anydpi/ic_password.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable-xxhdpi_fondo_onces.png.flat",
+        "source": "com.example.onces20.app-debug-42:/drawable-xxhdpi/fondo_onces.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/font_roboto_mono_bold.xml.flat",
+        "source": "com.example.onces20.app-main-43:/font/roboto_mono_bold.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.onces20.app-main-43:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/raw_nuevaanimation.json.flat",
+        "source": "com.example.onces20.app-main-43:/raw/nuevaanimation.json"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/xml_backup_rules.xml.flat",
+        "source": "com.example.onces20.app-main-43:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/layout_activity_register.xml.flat",
+        "source": "com.example.onces20.app-main-43:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/layout_activity_login_start.xml.flat",
+        "source": "com.example.onces20.app-main-43:/layout/activity_login_start.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable-mdpi_ic_username.png.flat",
+        "source": "com.example.onces20.app-debug-42:/drawable-mdpi/ic_username.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/font_roboto_mono_bold_italic.xml.flat",
+        "source": "com.example.onces20.app-main-43:/font/roboto_mono_bold_italic.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/raw_animacion.json.flat",
+        "source": "com.example.onces20.app-main-43:/raw/animacion.json"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/font_roboto_mono_medium_italic.xml.flat",
+        "source": "com.example.onces20.app-main-43:/font/roboto_mono_medium_italic.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable_logo_trans.png.flat",
+        "source": "com.example.onces20.app-main-43:/drawable/logo_trans.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable_borde_redondo.xml.flat",
+        "source": "com.example.onces20.app-main-43:/drawable/borde_redondo.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.onces20.app-main-43:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable_fondo.JPEG.flat",
+        "source": "com.example.onces20.app-main-43:/drawable/fondo.JPEG"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable-hdpi_ic_password.png.flat",
+        "source": "com.example.onces20.app-debug-42:/drawable-hdpi/ic_password.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable-anydpi_fondo2.JPEG.flat",
+        "source": "com.example.onces20.app-debug-42:/drawable-anydpi/fondo2.JPEG"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable-xxhdpi_ic_username.png.flat",
+        "source": "com.example.onces20.app-debug-42:/drawable-xxhdpi/ic_username.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/layout_activity_main.xml.flat",
+        "source": "com.example.onces20.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable-xxhdpi_ic_password.png.flat",
+        "source": "com.example.onces20.app-debug-42:/drawable-xxhdpi/ic_password.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/layout_activity_recuperar.xml.flat",
+        "source": "com.example.onces20.app-main-43:/layout/activity_recuperar.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/layout_activity_login.xml.flat",
+        "source": "com.example.onces20.app-main-43:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.onces20.app-main-43:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/font_roboto_mono_thin.xml.flat",
+        "source": "com.example.onces20.app-main-43:/font/roboto_mono_thin.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable-anydpi_ic_username.xml.flat",
+        "source": "com.example.onces20.app-debug-42:/drawable-anydpi/ic_username.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable-hdpi_ic_username.png.flat",
+        "source": "com.example.onces20.app-debug-42:/drawable-hdpi/ic_username.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable_popup.xml.flat",
+        "source": "com.example.onces20.app-main-43:/drawable/popup.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable-xxhdpi_borde_redondoblanco.xml.flat",
+        "source": "com.example.onces20.app-debug-42:/drawable-xxhdpi/borde_redondoblanco.xml"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.onces20.app-debug-42:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.onces20.app-merged_res-41:/drawable-mdpi_ic_password.png.flat",
+        "source": "com.example.onces20.app-debug-42:/drawable-mdpi/ic_password.png"
+    }
+]
